@@ -1,0 +1,92 @@
+td {
+    background: -webkit-linear-gradient ( #badafa,#d3e7fb,#b5d4f4); 
+    background: -o-linear-gradient( #badafa,#d3e7fb,#b5d4f4);
+    background: -moz-linear-gradient( #badafa,#d3e7fb,#b5d4f4); 
+    background: linear-gradient( #badafa,#d3e7fb,#b5d4f4); 
+}
+
+#toolbar {
+    float: right;
+}
+
+#calculator {
+    vertical-align: middle;
+}
+
+.outside-table {
+    width: 440px;
+}
+
+#nested-table {
+ background-color: -webkit-linear-gradient(#ebf2fb, #d8e3f0);
+    background-color: -o-linear-gradient(#ebf2fb, #d8e3f0); 
+    background-color: -moz-linear-gradient(#ebf2fb, #d8e3f0); 
+    background-color: linear-gradient(#ebf2fb, #d8e3f0);
+    margin:0 auto;
+}
+
+.get-underline {
+    border-bottom: 1px solid black;
+}
+
+.get-underline span {  
+    display: inline-block;
+}
+
+.get-underline span::first-letter {
+    text-decoration: underline;
+}
+
+.value-input {
+    width: 405px;
+    height: 50px;
+    border: 1px solid #c3d0de;
+    border-radius: 4px;
+    background: -webkit-linear-gradient(#e4eef9, #fff);
+    background: -o-linear-gradient(#e4eef9, #fff); 
+    background: -moz-linear-gradient(#e4eef9, #fff); 
+    background: linear-gradient(#e4eef9, #fff);
+}
+
+#bytes {
+    font-family: Consolas;
+    font-size: 14px;
+    background: #d8e3f0;
+    border-collapse: collapse;
+    padding-left: 5px;
+    margin:0 auto;
+}
+
+.padding-bytes {
+    padding-top: 0px;    
+    padding-bottom: 0px; 
+    word-spacing: 0px;
+}
+
+#pad {
+    padding-right:0px;
+}
+
+.number-of-bytes {
+    padding-top: 0px;    
+    padding-bottom: 0px; 
+}
+
+.last-bytes {
+    padding-left: 16px;
+    padding-top: 0px;    
+    padding-bottom: 0px; 
+}
+
+.last-byte {
+     padding-left: 24px;
+     padding-top: 0px;    
+     padding-bottom: 0px; 
+}
+
+.padding-bytes, .number-of-bytes {
+    background: #d8e3f0;
+}
+
+td {
+}

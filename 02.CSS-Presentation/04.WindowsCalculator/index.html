@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <table border="0">
+        <tr>
+            <td class="outside-table"><img id="calculator" src="calculator.png" alt=""> Calculator <img id="toolbar" src="toolbar.png" alt="">
+                <table id="nested-table" border="0">
+                    <tr>
+                        <td class="get-underline" colspan="10">
+                            <span>View</span>
+                            <span> Edit</span>
+                            <span>Help</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input class="value-input" type="text"></td>
+                    </tr>
+                    <tr>
+                        <table id="bytes">
+                            <tr>
+                                <td class="padding-bytes">00 00</td>
+                                <td class="padding-bytes">00 00</td>
+                                <td class="padding-bytes">00 00</td>
+                                <td class="padding-bytes">00 00</td>
+                                <td class="padding-bytes">00 00</td>
+                                <td class="padding-bytes">00 00</td>
+                                <td class="padding-bytes">00 00</td>
+                                <td class="padding-bytes">00 00</td>
+                            </tr>
+                            <tr>
+                                <td class="number-of-bytes" colspan="4">63</td>
+                                <td class="number-of-bytes" colspan="3">47</td>
+                                <td class="last-bytes number-of-bytes" colspan="4">32</td>
+                            </tr>
+                            <tr>
+                                <td class="padding-bytes">00 00</td>
+                                <td class="padding-bytes">00 00</td>
+                                <td class="padding-bytes">10 00</td>
+                                <td class="padding-bytes">01 11</td>
+                                <td class="padding-bytes">00 01</td>
+                                <td class="padding-bytes">10 11</td>
+                                <td class="padding-bytes">10 11</td>
+                                <td class="padding-bytes" id="pad">0111</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="number-of-bytes" colspan="4">31</td>
+                                <td class="number-of-bytes" colspan="3">15</td>
+                                <td class="last-byte number-of-bytes" colspan="4">0</td>
+                            </tr>
+                        </table>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

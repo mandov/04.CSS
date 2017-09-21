@@ -1,0 +1,49 @@
+table, th, td {
+    background:#76787a;
+    font-family:'Calibri','Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: #c2c2c2;
+}
+
+th {
+    text-align: left;
+    font-weight: none;
+    padding-bottom: 11px;
+    padding-top:6px;
+}
+
+td {
+    font-size: 12px;
+}
+
+.first-col {
+    width:93px;
+    color:white;
+}
+
+.second-col {
+    width:200px;
+}
+
+.to-yellow {
+    color:#f1f587;
+}
+
+#to-red {
+    color:red;
+}
+
+#to-orange {
+    color: orange;
+}
+
+img {
+     vertical-align:middle;
+}
+
+#email-padding {
+    padding-bottom: 5px;
+}
+
+.pad {
+    padding-bottom: 8px;
+}

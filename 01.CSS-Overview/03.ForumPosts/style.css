@@ -1,0 +1,48 @@
+body {
+    background-color: #a8a8a8;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+header {
+    color: #f9f9d2;
+}
+ul {
+    list-style-type: none;
+}
+
+nav {
+    text-align: center;
+}   
+
+.navi {
+    text-decoration: none;
+    color: white;
+}
+
+.navi:hover {
+background-color: #d2d2d2 ;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+p > a {
+    text-decoration: none;
+    color: black;
+}
+
+footer > p {
+    font-size: 12px;
+}
+
+#copyright {
+    text-align: center;
+}
